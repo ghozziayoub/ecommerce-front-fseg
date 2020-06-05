@@ -1,3 +1,10 @@
+# awel haja
+- 7ot etoile fel projet :D 
+# theni haja
+- a3mel fork lel projet
+# thaleth haja
+- a3mel npm install doub ma ta3ml clone lel projet
+
 # EcommerceFront
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.1.
