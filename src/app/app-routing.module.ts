@@ -9,6 +9,7 @@ import { ProductUpdateComponent } from './components/management/product/product-
 import { CategoryListComponent } from './components/management/category/category-list/category-list.component';
 import { CategoryAddComponent } from './components/management/category/category-add/category-add.component';
 import { CategoryUpdateComponent } from './components/management/category/category-update/category-update.component';
+import { DashboardComponent } from './components/management/dashboard/dashboard.component';
 
 const routes: Routes = [
   {
@@ -26,6 +27,10 @@ const routes: Routes = [
   {
     path: "management",
     children: [
+      {
+        path: "dashboard",
+        component: DashboardComponent
+      },
       {
         path: "product",
         children: [

@@ -13,6 +13,10 @@ import { ProductUpdateComponent } from './components/management/product/product-
 import { CategoryListComponent } from './components/management/category/category-list/category-list.component';
 import { CategoryAddComponent } from './components/management/category/category-add/category-add.component';
 import { CategoryUpdateComponent } from './components/management/category/category-update/category-update.component';
+import { SidebarComponent } from './components/management/sidebar/sidebar.component';
+import { TopbarComponent } from './components/management/topbar/topbar.component';
+
+import { FormsModule, ReactiveFormsModule } from "@angular/forms";
 
 @NgModule({
   declarations: [
@@ -26,11 +30,15 @@ import { CategoryUpdateComponent } from './components/management/category/catego
     ProductUpdateComponent,
     CategoryListComponent,
     CategoryAddComponent,
-    CategoryUpdateComponent
+    CategoryUpdateComponent,
+    SidebarComponent,
+    TopbarComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
